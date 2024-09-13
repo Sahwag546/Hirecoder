@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url(./output.css);
 
 .bgImage{
     background-image: url(./images/section-green-img.png);
