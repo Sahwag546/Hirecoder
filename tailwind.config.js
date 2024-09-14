@@ -13,9 +13,6 @@ module.exports = {
         threeXl: "24px",
         fourXl: "48px",
       },
-      colors: {
-        lightWhite: "#F7F7F7",
-      },
       // backgroundImage: {
       //   bgImage: "url('./images/section-green-img.png')",
       // }
@@ -30,6 +27,12 @@ module.exports = {
       lineHeight: {
         sm: '21px',
         md: '56px',
+      },
+      colors: {
+        grey: "#E5E5E5",
+        green: "#14A800",
+        darkGrey: "#707070",
+        lightWhite: "#F7F7F7",
       }
     },
   },
