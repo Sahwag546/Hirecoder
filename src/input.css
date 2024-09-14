@@ -14,3 +14,28 @@
 .inter{
     font-family: "Inter"," sans-serif";
 }
+.positionAbsolute{
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    transform: translate(-55%,75%);
+}
+.positionAbsolute-2 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+.slick-prev:before{
+    content: "";
+    background: green;
+    
+}
+.slick-next:before {
+    content: "";
+    background: green;
+
+}
+.bgImage-2{
+    background-image: url(./images/section-2-green-img.png);
+}
