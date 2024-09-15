@@ -26,12 +26,12 @@
     left: 50%;
     transform: translate(-50%, 50%);
 }
-.slick-prev:before{
+.personSlider .slick-prev:before{
     content: "";
     background: green;
     
 }
-.slick-next:before {
+.personSlider .slick-next:before {
     content: "";
     background: green;
 
