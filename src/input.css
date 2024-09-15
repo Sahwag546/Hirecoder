@@ -36,6 +36,12 @@
     background: green;
 
 }
+
 .bgImage-2{
     background-image: url(./images/section-2-green-img.png);
 }
+.bgImage-3 {
+    background-image: url(./images/section-4-bg-img.png);
+}
+.bgImage-4{
+    background-image: url(./images/footer-img.png);}

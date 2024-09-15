@@ -9,7 +9,7 @@ module.exports = {
         md: "14px",
         lg: "16px",
         xl: "18px",
-        towXl: "20px",
+        twoXl: "20px",
         threeXl: "24px",
         fourXl: "48px",
       },
@@ -33,6 +33,7 @@ module.exports = {
         green: "#14A800",
         darkGrey: "#707070",
         lightWhite: "#F7F7F7",
+        lightGreen:"#D8EAD6",
       }
     },
   },
