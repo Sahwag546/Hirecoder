@@ -1275,13 +1275,27 @@ video {
 }
 
 .personSlider .slick-prev:before{
-  content: "";
-  background: green;
+  content:"";
+  background-color: red;
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
 
 .personSlider .slick-next:before {
   content: "";
-  background: green;
+  background-color: red;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.first-slider .slick-next:before{
+  display: none;
+}
+
+.first-slider .slick-prev:before{
+  display: none;
 }
 
 .bgImage-2{
@@ -1384,26 +1398,8 @@ video {
     bottom: 40px;
   }
 
-  .max-xl\:mt-\[106px\]{
-    margin-top: 106px;
-  }
-
-  .max-xl\:mt-\[50px\]{
-    margin-top: 50px;
-  }
-
   .max-xl\:mt-\[30px\]{
     margin-top: 30px;
-  }
-
-  .max-xl\:px-2{
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-
-  .max-xl\:px-1{
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
   }
 
   .max-xl\:px-3{
@@ -1472,20 +1468,8 @@ video {
     background-color: rgb(234 179 8 / var(--tw-bg-opacity));
   }
 
-  .max-lg\:pb-\[140px\]{
-    padding-bottom: 140px;
-  }
-
   .max-lg\:pb-\[50px\]{
     padding-bottom: 50px;
-  }
-
-  .max-lg\:pt-\[50px\]{
-    padding-top: 50px;
-  }
-
-  .max-lg\:pt-\[30px\]{
-    padding-top: 30px;
   }
 
   .max-lg\:pt-\[10px\]{
@@ -1498,16 +1482,8 @@ video {
 }
 
 @media not all and (min-width: 768px){
-  .max-md\:bottom-\[30px\]{
-    bottom: 30px;
-  }
-
   .max-md\:bottom-\[50px\]{
     bottom: 50px;
-  }
-
-  .max-md\:mt-\[106px\]{
-    margin-top: 106px;
   }
 
   .max-md\:flex-wrap{
@@ -1537,22 +1513,6 @@ video {
 }
 
 @media not all and (min-width: 640px){
-  .max-sm\:bottom-\[25px\]{
-    bottom: 25px;
-  }
-
-  .max-sm\:bottom-\[px\]{
-    bottom: px;
-  }
-
-  .max-sm\:bottom-\[40px\]{
-    bottom: 40px;
-  }
-
-  .max-sm\:bottom-\[50px\]{
-    bottom: 50px;
-  }
-
   .max-sm\:bottom-\[60px\]{
     bottom: 60px;
   }
@@ -1568,37 +1528,9 @@ video {
   .max-sm\:pl-0{
     padding-left: 0px;
   }
-
-  .max-sm\:text-xl{
-    font-size: 18px;
-  }
-
-  .max-sm\:text-twoXl{
-    font-size: 20px;
-  }
-
-  .max-sm\:text-threeXl{
-    font-size: 24px;
-  }
-
-  .max-sm\:font-twoXl{
-    font-weight: 700;
-  }
-
-  .max-sm\:font-xl{
-    font-weight: 600;
-  }
 }
 
 @media (min-width: 640px){
-  .sm\:bottom-\[60px\]{
-    bottom: 60px;
-  }
-
-  .sm\:bottom-\[40px\]{
-    bottom: 40px;
-  }
-
   .sm\:w-1\/2{
     width: 50%;
   }
