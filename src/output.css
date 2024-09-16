@@ -616,8 +616,20 @@ video {
   left: 30px;
 }
 
+.left-\[80px\]{
+  left: 80px;
+}
+
+.right-\[100px\]{
+  right: 100px;
+}
+
 .top-0{
   top: 0px;
+}
+
+.top-\[78\%\]{
+  top: 78%;
 }
 
 .z-10{
@@ -864,6 +876,11 @@ video {
   border-color: rgb(112 112 112 / var(--tw-border-opacity));
 }
 
+.border-green{
+  --tw-border-opacity: 1;
+  border-color: rgb(20 168 0 / var(--tw-border-opacity));
+}
+
 .border-grey{
   --tw-border-opacity: 1;
   border-color: rgb(229 229 229 / var(--tw-border-opacity));
@@ -889,6 +906,10 @@ video {
 
 .p-2{
   padding: 0.5rem;
+}
+
+.p-\[10px\]{
+  padding: 10px;
 }
 
 .px-2{
@@ -1274,22 +1295,6 @@ video {
   transform: translate(-50%, 50%);
 }
 
-.personSlider .slick-prev:before{
-  content:"";
-  background-color: red;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-}
-
-.personSlider .slick-next:before {
-  content: "";
-  background-color: red;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-}
-
 .first-slider .slick-next:before{
   display: none;
 }
@@ -1308,6 +1313,20 @@ video {
 
 .bgImage-4{
   background-image: url(./images/footer-img.png);
+}
+
+.circle:hover {
+  border: 2px solid white;
+  background: #14A800;
+  transition: all 400ms;
+  path {
+    fill: white;
+  }
+}
+
+.circle {
+  display: flex;
+  align-items: center;
 }
 
 .hover\:scale-\[1\.01\]:hover{

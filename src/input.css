@@ -26,22 +26,6 @@
     left: 50%;
     transform: translate(-50%, 50%);
 }
-.personSlider .slick-prev:before{
-    content:"";
-    background-color: red;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    
-}
-.personSlider .slick-next:before {
-    content: "";
-    background-color: red;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-
-}
 .first-slider .slick-next:before{
     
     display: none;
@@ -58,4 +42,19 @@
     background-image: url(./images/section-4-bg-img.png);
 }
 .bgImage-4{
-    background-image: url(./images/footer-img.png);}
+    background-image: url(./images/footer-img.png);
+}
+.circle:hover {
+    border: 2px solid white;
+    background: #14A800;
+    transition: all 400ms;
+
+    path {
+        fill: white;
+    }
+}
+.circle {
+   
+    display: flex;
+    align-items: center;
+}
