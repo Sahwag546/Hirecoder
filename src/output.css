@@ -904,10 +904,6 @@ video {
   background-repeat: no-repeat;
 }
 
-.p-2{
-  padding: 0.5rem;
-}
-
 .p-\[10px\]{
   padding: 10px;
 }
@@ -950,6 +946,11 @@ video {
 .px-\[7px\]{
   padding-left: 7px;
   padding-right: 7px;
+}
+
+.px-\[9px\]{
+  padding-left: 9px;
+  padding-right: 9px;
 }
 
 .py-1{
@@ -1327,6 +1328,13 @@ video {
 .circle {
   display: flex;
   align-items: center;
+}
+
+.svg-2:hover {
+  transition: all 400ms;
+  path {
+    fill: green;
+  }
 }
 
 .hover\:scale-\[1\.01\]:hover{

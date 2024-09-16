@@ -53,8 +53,14 @@
         fill: white;
     }
 }
-.circle {
-   
+.circle {  
     display: flex;
     align-items: center;
+}
+.svg-2:hover {
+    transition: all 400ms;
+
+    path {
+        fill: green;
+    }
 }
